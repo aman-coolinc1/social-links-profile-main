@@ -45,10 +45,6 @@ p {
     margin-top: 0px;
 }
 
-a:link {
-    text-decoration: none;
-}
-
 #social-profiles {
     display: inline-flex;
     flex-direction: column;
@@ -63,11 +59,17 @@ a:link {
     font-weight: 600;
 }
 
-#social-profiles a:visited, a:active, a:link,a:hover {
+a.profile-link:visited, a.profile-link:active, a.profile-link:link {
     color: hsl(0, 0%, 100%);
+    text-decoration: none;
 }
 
-#social-profiles a:hover {
+#social-profiles :focus {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);;
+}
+
+#social-profiles a:hover{
     background-color: hsl(75, 94%, 57%);
     color: hsl(0, 0%, 8%);;
 }
