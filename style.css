@@ -16,19 +16,18 @@ main {
 p {
     font-size: 14px;
     color: hsl(0, 0%, 100%);
-    font-weight: 200;
 }
 
 .my-info {
     background-color: hsl(0, 0%, 12%);
     width: 375px;
-    height: 575px;
+    height: 550px;
     text-align: center;
     border-radius: 10px;
 }
 
 #my-pic img{
-    height: 100px;
+    height: 80px;
     border-radius: 100%;
     margin-top: 20px;
 }
@@ -56,7 +55,7 @@ p {
     padding:10px;
     margin: 8px;
     border-radius: 5px;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 a.profile-link:visited, a.profile-link:active, a.profile-link:link {
